@@ -1,0 +1,9 @@
+
+
+main .aside > figure{
+    width: 43vh;
+    height: 43vh;
+    background-image: url(http://cloud.hunger-valley.com/music/public_tuijian_spring.jpg-middle);
+    background-size: cover;
+    
+  }
