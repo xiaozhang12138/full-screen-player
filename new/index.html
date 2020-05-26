@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="cn">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="referrer" content="never">
-  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-  <title>coca</title>
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="//at.alicdn.com/t/font_1822879_dwk1u4g3b5.css">
-  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css">
-  <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="never">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>coca</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1822879_bi8e652ais.css">
+    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 </head>
+
 <body>
-  <section id="page-music">
-      <main class="layout">
-          <div class="aside">
-            <figure></figure>
-            <div class="actions">
-                <span class="iconfont icon-collection" ></span>
-                <span class="iconfont icon-bofang"></span>
-                <span class="iconfont icon-xiayishou"></span>
+    <!--第一页-->
+    <section id="page-music">
+        <!--播放器部分-->
+        <main class="layout">
+            <!--左边播放暂停-->
+            <div class="aside">
+                <figure></figure>
+                <div class="actions">
+                    <span class="iconfont icon-collection"></span>
+                    <span class="iconfont icon-bofang"></span>
+                    <span class="iconfont icon-xiayishou"></span>
+                </div>
             </div>
-          </div>
-          <div class="detail">
-              
-          </div>
-      </main>
-      <footer></footer>
-  </section>
-  <section id="page-cover"></section>
-  <script src="js/js.js"></script>
+            <!--右边进度条-->
+            <div class="detail">
+                <h4>复兴中国</h4>
+                <h2>这是新的一天</h2>
+                <ul>
+                    <li><span class="iconfont icon-erji"></span>333</li>
+                    <li><span class="iconfont icon-collection"></span>20</li>
+                    <li><span class="iconfont icon-ai-like"></span>200</li>
+                </ul>
+                <!--进度条-->
+                <div class="area-bar">
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>0:00</div>
+                </div>
+                <div>百事可乐</div>
+                <!--歌词-->
+                <div>
+                    <p></p>
+                </div>
+            </div>
+        </main>
+        <!--播放列表部分-->
+        <footer class="layout-bottom"></footer>
+    </section>
+    <!--第二页隐藏部分-->
+    <section id="page-cover"></section>
+    <div class="bg"></div>
+    <script src="js/js.js"></script>
 </body>
+
 </html>
