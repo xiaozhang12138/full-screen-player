@@ -29,6 +29,18 @@ main .aside>figure {
     
 }
 
+.aside>.actions{
+    display: flex;
+    
+    margin: 5vh;
+}
+.aside .actions span{
+    flex:1;
+    font-size: 5vh;
+    color: rgba(255,255,255,0.4);
+    transition:color .4s;
+}
+
 .detail {
     position: absolute;
     right: 0;
